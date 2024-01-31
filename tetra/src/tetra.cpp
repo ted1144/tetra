@@ -437,8 +437,10 @@ int main(int argc, char * argv[])
 
 	rclcpp::WallRate loop_rate(30); //default: 30HZ
 	sprintf(port, "/dev/tetra/motor");
+	// sprintf(port, "/dev/ttyUSB0");
+
 	//sprintf(port, "/dev/TETRA");
-	//RS232 Connect
+	// RS232 Connect
 	if(dssp_rs232_drv_module_create(port, 200) == 0)
 	{
 		printf("TETRA_DS_rs232 Port Open Success\n");
