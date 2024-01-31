@@ -2,6 +2,7 @@
 
 ```bash
 cd ~/ros2_ws/src/tetra
+sudo chmod 777 initenv.sh
 sudo ./initenv.sh
 ```
 
