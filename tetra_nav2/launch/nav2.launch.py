@@ -47,7 +47,7 @@ def generate_launch_description():
             [
                 FindPackageShare('tetra_nav2'),
                 'map',
-                'map3.yaml'
+                'machine.yaml'
             ]
         )
     )

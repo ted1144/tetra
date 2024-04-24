@@ -40,7 +40,7 @@ def generate_launch_description():
         [
             FindPackageShare('tetra_description'),
             'world',
-            'maze.world'
+            'babi.world'
         ]
     )
     
