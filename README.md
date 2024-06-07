@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## TTS install
 
 ```bash
@@ -48,3 +49,7 @@ ros2 launch flexbe_app flexbe_full.launch.py
 ```jsx
 ros2 launch bmkbot_gui bmkbot_gui.launch.py
 ```
+=======
+# tetra
+tetra robot study of graduation works
+>>>>>>> origin/main
